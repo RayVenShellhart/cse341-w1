@@ -1,0 +1,9 @@
+GET https://three41-project1.onrender.com
+
+
+// Conatacts
+### Get all contacts
+GET https://three41-project1.onrender.com/contacts
+
+###Get one contacts
+Get https://three41-project1.onrender.com/contacts/68bcb1005631893a6d7d3a4d
