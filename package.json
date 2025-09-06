@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/RayVenShellhart/cse341-w1/issues"
   },
-  "homepage": "https://github.com/RayVenShellhart/cse341-w1#readme"
+  "homepage": "https://github.com/RayVenShellhart/cse341-w1#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
 }
