@@ -7,3 +7,36 @@ GET https://three41-project1.onrender.com/contacts
 
 ###Get one contacts
 Get https://three41-project1.onrender.com/contacts/68bcb1005631893a6d7d3a4d
+
+###Local
+GET http://localhost:3000/contacts
+
+###Local One
+GET http://localhost:3000/contacts/68bcb1005631893a6d7d3a4d
+
+### Create contact
+POST http://localhost:3000/contacts HTTP/1.1
+content-type: application/json
+
+{
+    "firstName": "John",
+    "lastName": "",
+    "Email": "test@gmail.com",
+    "favoriteColor": "brown",
+    "birthday": "September 4th"
+}
+
+### Put contact
+PUT http://localhost:3000/contacts/ HTTP/1.1
+content-type: application/json
+
+{
+    "firstName": "John",
+    "lastName": "Doe",
+    "Email": "test@gmail.com",
+    "favoriteColor": "brown",
+    "birthday": "September 4th"
+}
+
+### DELETE contact
+DELETE http://localhost:3000/contacts/ HTTP/1.1
